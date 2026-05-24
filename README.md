@@ -81,7 +81,31 @@ Task 4
 - Predictive modeling and pricing analytics
 
 ---
+Interim Progress
 
+Exploratory Data Analysis Completed
+
+The project currently includes:
+
+- Data quality assessment
+- Missing value analysis
+- Descriptive statistics
+- Loss Ratio calculation
+- Geographic risk analysis
+- Temporal trend analysis
+- Visualization of claims and premium distributions
+
+DVC Setup
+
+Data Version Control (DVC) was initialized to support reproducible and auditable data workflows.
+
+Dataset tracking was configured using DVC for version management.
+
+Key Early Insights
+
+- Certain provinces show higher loss ratios compared to others.
+- TotalClaims contains strong outliers that may affect modeling.
+- Claim behavior changes over time, suggesting temporal patterns in insurance risk.
 Author
 
 Developed as part of the 10 Academy Artificial Intelligence Mastery Program – Week 3 Challenge.
