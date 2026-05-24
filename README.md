@@ -106,6 +106,13 @@ Key Early Insights
 - Certain provinces show higher loss ratios compared to others.
 - TotalClaims contains strong outliers that may affect modeling.
 - Claim behavior changes over time, suggesting temporal patterns in insurance risk.
+## Data Version Control (DVC) after comment 
+
+DVC was initialized to support reproducible data workflows.
+
+The dataset is tracked using DVC instead of Git to avoid storing large raw files directly in the repository.
+
+This setup improves reproducibility, auditability, and scalability for insurance analytics projects.
 Author
 
 Developed as part of the 10 Academy Artificial Intelligence Mastery Program – Week 3 Challenge.
